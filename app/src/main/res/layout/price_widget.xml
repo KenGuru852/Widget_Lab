@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/widget_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.PF_Widget.AppWidgetContainer"
+    android:background="@color/black">
+
+
+    <Button
+        android:layout_width="50dp"
+        android:id="@+id/button_widget"
+        android:layout_height="50dp"></Button>
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.PF_Widget.AppWidget.InnerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@color/dark_blue"
+        android:contentDescription="@string/appwidget_text"
+        android:text="Metall №1"
+        android:textAlignment="center"
+        android:textColor="@color/fucsia"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="20dp"
+        android:text="Buy"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="120dp"
+        android:id="@+id/buy_first_widget"
+        android:paddingTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewSell"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="20dp"
+        android:text="Sell"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="120dp"
+        android:id="@+id/sell_first_widget"
+        android:paddingTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
